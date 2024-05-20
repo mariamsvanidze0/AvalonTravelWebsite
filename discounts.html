@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<link rel="stylesheet" href="./styles/discountsUpgraded.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="flights, cheap flights, expedia flight, travel">
+<meta name="author" content="Mariam Svanidze">
+<meta name="description" content="Avalon Travel Better">
+<title>Avalon Travel Better</title>
+    </head>
+    <body>
+        <header>
+            <div class="headermaindiv">
+                <div class="companyname">
+                    <a href="./main.html"><h2>AVALON </h2></a>
+         <p>Travel Better</p>
+              </div>
+         <a href="#Javasctips:void(0);" class="toggle-button"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </a>
+        <nav class="firstnav">
+            <a href="./main.html">Main</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./contactus.html">Contact Us</a>
+            <a href="./information.html">Information</a>
+            <a id="toursid" href="./tours.html">Tours</a>
+        </nav>
+         </div>
+        </header>
+        <main>
+            <div id="notFoundDiv"> </div>
+            <div class="searchDiv">
+            <input id="searchInputTours" onkeyup="searchToursUpgraded()" placeholder="Search Destinations">
+        </div>
+<!-- first content -->
+  <div class="mainTourDiv">
+            <div class="container">
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Florence | Italy</h3>
+                            <a href="./florence.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/florence.jpeg" alt="countryPhoto">
+                    </div>
+                </div>
+         
+
+            
+      
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Dubrovnik | Croatia</h3>
+                            <a href="./dubrovnik.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/dubrovnik.jpeg" alt="countryPhoto">
+                    </div>
+                </div>
+      
+
+            
+          
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Bruges | Belgium</h3>
+                            <a href="./bruges.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/bruges.jpeg" alt="countryPhoto">
+                    </div>
+                </div>
+        
+
+            
+      
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Vancouver | Canada</h3>
+                            <a href="./munich.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/vancouver.jpeg" alt="countryPhoto">
+                    </div>
+                </div>
+           
+
+            
+ 
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Beijing | China</h3>
+                            <a href="./beijing.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/beijing.webp" alt="countryPhoto">
+                    </div>
+                </div>
+       
+
+            
+          
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Beirut | Lebanon</h3>
+                            <a href="./beirut.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/beirut.webp" alt="countryPhoto">
+                    </div>
+                </div>
+        
+
+            
+          
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Bergen | Norway</h3>
+                            <a href="./bergen.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/bergen.webp" alt="countryPhoto">
+                    </div>
+                </div>
+         
+
+            
+      
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Chefchaouen | Moroco</h3>
+                            <a href="./chefchaouen.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/chefchaouen.webp" alt="countryPhoto">
+                    </div>
+                </div>
+         
+
+            
+           
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Chiang Mai | Thailand</h3>
+                            <a href="./chiangmai.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/chiang mai.webp" alt="countryPhoto">
+                    </div>
+                </div>
+          
+                <div class="slide-container">
+                    <div class="slide">
+                        <div class="content">
+                            <h3 id="headerName">Muscat | Osman</h3>
+                            <a href="./muscat.html" class="btn">learn more</a>
+                        </div>
+                        <img src="./images2/muscat.jpeg" alt="countryPhoto">
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+
+<div class="fixedSearch">
+    <div class="lowerSearchDiv">
+    <input id="searchInputMain"  type="text" onkeyup="searchTours()" placeholder="Search">
+    <button onclick="showSearch()" id="searchButtonMain"><img id="search" src="./videos/441039246_1542770132962970_9145887041473301309_n.png" alt="searchBar"></button>
+</div>
+    <ul id="tours">
+        <li><a href="./abudhabi.html">Abu Dhabi - <i>United Arab Emirates</i> </a></li>
+        <li><a href="./alacati.html">Alacati - <i>Turkey</i></a></li>
+        <li><a href="./amsterdam.html">Amsterdam - <i>Netherlands</i></a></li>
+        <li><a href="./antalya.html">Antalya - <i>Turkey</i></a></li>
+        <li><a href="./bali.html">Bali - <i>Indonesia</i></a></li>
+        <li><a href="./bangkok.html">Bangkok - <i>Thailand</i></a></li>
+        <li><a href="./barcelona.html">Barcelona - <i>Spain</i></a></li>
+        <li><a href="./beijing.html">Beijing - <i>China</i></a></li>
+        <li><a href="./beirut.html">Beirut - <i>Lebanon</i></a></li>
+        <li><a href="./Bergen.html">Bergen - <i>Norway</i></a></li>
+        <li><a href="./Berlin.html">Berlin - <i>Germany</i></a></li>
+        <li><a href="./Bruges.html">Bruges - <i>Belgium</i></a></li>
+        <li><a href="./brussels.html">Brussels - <i>Belgium</i></a></li>
+        <li><a href="./catania.html">Catania - <i>Italy</i></a></li>
+        <li><a href="./chefchaouen.html">Chefchaouen - <i>Moroco</i></a></li>
+        <li><a href="./chiangmai.html">Chiangmai - <i>Thailand</i></a></li>
+        <li><a href="./cologne.html">Cologne - <i>Germany</i></a></li>
+        <li><a href="./copenhagen.html">Copenhagen - <i>Denmark</i></a></li>
+        <li><a href="./crete.html">Crete - <i>Greece</i></a></li>
+        <li><a href="./dehli.html">Dehli - <i>India</i></a></li>
+        <li><a href="./dubai.html">Dubai - <i>United Arab Emirates</i></a></li>
+        <li><a href="./dubrovnik.html">Dubrovnik - <i>Croatia</i></a></li>
+        <li><a href="./florence.html">Florence - <i>Italy</i></a></li>
+        <li><a href="./frankfurt.html">Frankfurt - <i>Germany</i></a></li>
+        <li><a href="./fussen.html">Fussen - <i>Germany</i></a></li>
+        <li><a href="./hamburg.html">Hamburg - <i>Germany</i></a></li>
+        <li><a href="./heidelberg.html">Heidelberg - <i>Germany</i></a></li>
+        <li><a href="./helsinki.html">Helsinki - <i>Finland</i></a></li>
+        <li><a href="./krabi.html">Krabi</a></li>
+        <li><a href="./larnaca.html">Larnaca - <i>Cyprus</i></a></li>
+        <li><a href="./lisbon.html">Lisbon - <i>Portugal</i></a></li>
+        <li><a href="./london.html">London - <i>United Kingdom</i></a></li>
+        <li><a href="./madrid.html">Madrid - <i>Spain</i></a></li>
+        <li><a href="./maldives.html">Maldives - <i>South Asia</i></a></li>
+        <li><a href="./marseille.html">Marseille - <i>France</i></a></li>
+        <li><a href="./melbourne.html">Melbourne - <i>Australia</i></a></li>
+        <li><a href="./milano.html">Milano - <i>Italy</i></a></li>
+        <li><a href="./munich.html">Munich - <i>Germany</i></a></li>
+        <li><a href="./muscat.html">Muscat - <i>Oman</i></a></li>
+        <li><a href="./napoli.html">Napoli - <i>Italy</i></a></li>
+        <li><a href="./osaka.html">Osaka - <i>Japan</i></a></li>
+        <li><a href="./oslo.html">Oslo - <i>Norway</i></a></li>
+        <li><a href="./paris.html">Paris - <i>France</i></a></li>
+        <li><a href="./philippines.html">Philippines - <i>Asia</i></a></li>
+        <li><a href="./prague.html">Prague - <i>Czech Republic</i></a></li>
+        <li><a href="./rhodes.html">Rhodes - <i>Greece</i></a></li>
+        <li><a href="./rome.html">Rome - <i>Italy</i></a></li>
+        <li><a href="./santorini.html">Santorini - <i>Greece</i></a></li>
+        <li><a href="./seoul.html">Seoul - <i>South Korea</i></a></li>
+        <li><a href="./seychelles.html">Seychelles - <i>East Africa</i></a></li>
+        <li><a href="./shanghai.html">Shanghai - <i>China</i></a></li>
+        <li><a href="./sydney.html">Sydney - <i>Australia</i></a></li>
+        <li><a href="./tenerife.html">Tenerife - <i>Spain</i></a></li>
+        <li><a href="./tokio.html">Tokio - <i>Japan</i></a></li>
+        <li><a href="./valencia.html">Valencia - <i>Spain</i></a></li>
+        <li><a href="./vancouver.html">Vancouver - <i>Canada</i></a></li>
+        <li><a href="./venice.html">Venice - <i>Italy</i></a></li>
+        <li><a href="./vienna.html">Vienna - <i>Austria</i></a></li>
+        <li><a href="./vietnam.html">Vietnam - <i>Asia</i></a></li>
+        <li><a href="./florence.html">Florence - <i>Italy</i></a></li>
+
+        <li><a href="./main.html">Main Page</a></li>
+        <li><a href="./aboutus.html">About Us Page</a></li>
+        <li><a href="./contactus.html">Contact Us Page</a></li>
+        <li><a href="./information.html">Information Page</a></li>
+        <li><a href="./tours.html">Tours Page</a></li>
+    </ul>
+</div>
+        </main>
+        <footer>
+            <p>© Copyright</p>
+            <div>
+                <img src="./images/facebook.svg" alt="facebook icon">
+                <img src="./images/instagram.svg" alt="instagram icon">
+            </div>
+        </footer>
+        <script  src="./scripts/burgerbar.js"></script>
+        <script src="./scripts/searchTours.js"></script>
+        <script src="./scripts/search.js"></script>
+        <script src="./scripts/searchBar.js"></script>
+    </body>
+</html>
+                                           
+
+
+                 

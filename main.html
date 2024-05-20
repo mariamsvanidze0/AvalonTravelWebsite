@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./styles/main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="flights, cheap flights, expedia flight, travel">
+<meta name="author" content="Mariam Svanidze">
+<meta name="description" content="Avalon Travel Better">
+<title>Avalon Travel Better</title>
+</head>
+
+<body>
+
+<header>
+<div class="headermaindiv">
+<div class="companyname">
+<a href="./main.html"><h2>AVALON </h2></a>
+<p>Travel Better</p>
+</div>
+<a href="#Javasctips:void(0);" class="toggle-button"> 
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+<nav class="firstnav">
+<a href="./main.html">Main</a>
+<a href="./aboutus.html">About Us</a>
+<a href="./contactus.html">Contact Us</a>
+<a href="./information.html">Information</a>
+<a id="toursid" href="./tours.html">Tours</a>
+</nav>
+</div>
+</header>
+
+<main>
+<div class="container">
+
+    <!-- first slide -->
+<div class="slide-container active">
+<div class="slide">
+<div class="content">
+<div class="mainRegistrationDiv">
+<div class="firstmaindiv">
+<h3>As we said!<br> travel better with us</h3>
+<div class="registrationdiv">
+<h4>register here </h4>
+<a href="./registration1.html">Registration</a>
+</div>
+</div>
+<div class="logInDiv">
+<h3> You Already Have An Account?</h3>
+<form action="./loggedin.html" id="loginForm">
+<label for="username">Username</label>
+<input type="text" id="username"> <br><br>
+<label for="password">Password</label>
+<input type="password" id="password"><br><br>
+<label for="savePass">Save Password</label>
+<input type="checkbox" id="savePass"><br><br>
+<input type="button" onclick="handleLogin()" id="loginButton" value="Login">
+<div id="loginError"></div>
+</form>
+</div>
+</div>
+</div>
+<video src="./videos/japan.mov" muted autoplay loop></video>
+</div>
+</div>
+
+<!-- second slide -->
+<div class="slide-container">
+<div class="slide">
+<div class="content">
+<h3> Are You Ready For The Special Offers? </h3>
+
+<a href="#" class="btn">learn more</a>
+<div class="additionalContent" style="display: none; font-size: 30px;">
+<div class="nextEvents">
+<div class="nextEventsInner">
+    <a href="./florence.html"> <img src="./images/florence3.jpeg" alt="countryImage"> </a>
+    <h2 style="position: relative; bottom: 25px;">Visit Florence, <i>Italy</i></h2>
+    <p style="position: relative; bottom: 50px;">Fri, Nov 25, 2024 – Sun, Dec 2, 2024</p>
+    <h5 style="position: relative; bottom: 50px;">From 450€</h5>
+   
+    <p style="position: relative; bottom: 50px;"> 
+        The cradle of the Renaissance and the world capital of art in the 15th century, it boasts one of the oldest historic centres and some of the most famous museums in the world, as well as one of the most iconic and distinctive landscapes as far as the eye can see.
+    </p>
+
+        </div>
+
+        <div class="nextEventsInner">
+            <a href="./beijing.html"> <img src="./images/beijing3.jpeg" alt="countryImage"> </a>
+            <h2 style="position: relative; bottom: 25px;">Visit Beijing, <i>China</i></h2>
+            <p style="position: relative; bottom: 50px;">Mon, Mar 21, 2024 – Sun, Mar 30, 2024</p>
+            <h5 style="position: relative; bottom: 50px;">From 350€</h5>
+           
+            <p style="position: relative; bottom: 50px;"> 
+                Beijing, city, province-level shi (municipality), and capital of the People’s Republic of China. Few cities in the world have served for so long as the political headquarters and cultural centre of an area as immense as China.
+            </p>
+        
+                </div>
+                <div class="nextEventsInner">
+                    <a href="./bergen.html"> <img src="./images/bergen3.jpeg" alt="countryImage"> </a>
+                    <h2 style="position: relative; bottom: 25px;">Visit Bergen, <i>Norway</i></h2>
+                    <p style="position: relative; bottom: 50px;"> Mon, Dec 25, 2024 – Wed, Jan 5, 2024</p>
+                    <h5 style="position: relative; bottom: 50px;">From 520€</h5>
+                   
+                    <p style="position: relative; bottom: 50px;"> 
+                        Bergen is a city on Norway’s southwestern coast. It's surrounded by mountains and fjords, including Sognefjord, the country’s longest and deepest. Bryggen features colorful wooden houses on the old wharf, once a center of the Hanseatic League's trading empire. 
+                    </p>
+                
+                        </div>
+</div>
+<a id="insideButton" href="discounts.html"> Visit Discount Page!</a>
+</div>
+</div>
+<video src="./videos/firstvid.mov" muted autoplay loop></video>
+</div>
+</div>
+
+<!-- third slide -->
+<div class="slide-container">
+<div class="slide">
+<div class="content">
+<h3> Are you ready to fly today? Check the weather</h3>
+<a href="#" class="btn">learn more</a>
+<div class="additionalContent" style="display: none;">
+    <div class="mainDiv">
+        <input id="inputWeather" placeholder="Write City Name">
+        <br>
+        <button id="submit" type="submit" onclick="weatherApp()">Submit</button>
+        <p style="font-size: 20px;" id="result"></p>
+        <p style="font-size: 20px;" id="longLat"></p> 
+        </div>
+</div>
+</div>
+
+
+<video src="./videos/movieBali.mov" muted autoplay loop></video>
+</div>
+</div>
+
+<!-- forth slide -->
+<div class="slide-container">
+<div class="slide">
+<div class="content">
+<h3> Check Out Our Partner Avia Companies! </h3>
+<a href="#" class="btn">learn more</a>
+<div class="additionalContent" style="display: none;">
+
+    <div class="aviaCompanies">
+
+        <div class="innerAviaCompanies">
+
+<a href="https://www.lufthansa.com/ge/en/homepage"><img src="./images/lufthansa.png" alt="CompanyImage"></a>
+<h2>Say yes to the world</h2>
+
+
+
+        </div>
+        <div class="innerAviaCompanies">
+<a href="https://wizzair.com/"><img src="./images/wizzair.png" alt="CompanyImage"></a>
+<h2>DREAM MORE. LIVE MORE. BE MORE.</h2>  
+
+        </div>
+        <div class="innerAviaCompanies">
+    <a href="https://wizzair.com/en-gb">   <img src="./images/turkishairlines.png" alt="CompanyImage">
+    </a>
+   <h2>Widen your World</h2>         
+
+        </div>
+
+        <div class="innerAviaCompanies">
+           <a href="https://us.ceair.com/en/"> <img src="./images/chinaeast.png" alt="CompanyImage"></a>
+            <h2> World-Class Hospitality with Eastern Charm</h2>         
+         
+                 </div>
+
+                 <div class="innerAviaCompanies">
+                 <a href="https://www.csair.com/cn/index.shtml">  <img src="./images/chinasouth.png" alt="CompanyImage"></a>
+                    <h2> Fly towards your dreams</h2>         
+                 
+                         </div>
+
+                         <div class="innerAviaCompanies">
+                         <a href="https://www.qatarairways.com/en-ge/homepage.html">   <img src="./images/qatarairlines.png" alt="CompanyImage"></a>
+                            <h2> Going Places Together</h2>         
+               </div>
+
+               <div class="innerAviaCompanies">
+                <a href="hhttps://wwws.airfrance.fr/en"><img src="./images/airfrance.png" alt="CompanyImage"></a>
+                <h2>FRANCE, FRANCE IS IN THE AIR</h2>         
+            </div>
+
+            
+            <div class="innerAviaCompanies">
+                <a href="hhttps://www.aircanada.com/"><img src="./images/aircanada.png" alt="CompanyImage"></a>
+                <h2>Fly the flag</h2>         
+            </div>
+
+            
+            <div class="innerAviaCompanies">
+                <a href="https://www.delta.com/"><img src="./images/delta.png" alt="CompanyImage"></a>
+                <h2>Delta Is Ready When You Are!</h2>         
+            </div>
+
+            
+            <div class="innerAviaCompanies">
+                <a href="https://www.southwest.com/?clk=GNAVHOMELOGO"><img src="./images/southwest.png" alt="CompanyImage"></a>
+                <h2>Low fares. Nothing to hide
+                </h2>         
+            </div>
+
+            
+            <div class="innerAviaCompanies">
+                <a href="https://www.jal.com/en/"><img src="./images/japanairlines.png" alt="CompanyImage"></a>
+                <h2>Inspiration of Japan</h2>         
+            </div>
+
+            
+            <div class="innerAviaCompanies">
+                <a href="hhttps://www.aa.com/homePage.do"><img src="./images/americaairlines.png" alt="CompanyImage"></a>
+                <h2>Let Good Take Flight</h2>         
+            </div>
+            
+    </div>
+</div>
+</div>
+<video src="./videos/indiaVid.mov" muted autoplay loop></video>
+</div>
+</div>
+
+<!-- fifth slide -->
+<div class="slide-container">
+<div class="slide">
+<div class="content">
+<h3>Most Popular Upcoming Events </h3>
+<a href="#" class="btn">learn more</a>
+<div class="additionalContent" style="display: none;">
+<div class="nextEvents">
+
+    <div class="nextEventsInner">
+<a href="https://www.gigsberg.com/concert-tickets/hard-rock-metal/rammstein-tickets?gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3foy0DVb3Y4WirOMnqxFBby5XjG0Cn_P3jQyWp0V8YkPcad5zEAES6RoCkMcQAvD_BwE"><img src="./images/rammstein.jpeg" alt="CompanyImage"></a>
+<h2>Rammstein Europe Tour Tickets 2024</h2>
+<p>Sat, Jun 15, 2024 - Wed, Aug 28, 2024</p>
+<p> Buy Rammstein Europe Tour tickets today!Our sellers have a long track record and experience to ensure delivery on time.
+</p>
+    </div>
+
+    <div class="nextEventsInner">
+        <a href="https://www.footballticketnet.com/euro-2024-football-tickets?gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fuLf6H6WORN_q7SO5GJWuj2brF31zQP2YIEmQCxrGU2sa4Dw3tMNqBoCSe8QAvD_BwE"><img src="./images/georgianTeam.jpeg" alt="CompanyImage"></a>
+        <h2>Georgia in UEFA EURO 2024!</h2>
+        <p>Fri, Jun 14, 2024 – Sun, Jul 14, 2024</p>
+        <p> In qualifying for UEFA EURO 2024, Georgia made history and reached a major football tournament for the first time. It’s the latest milestone on a journey that has seen Georgian football go from strength to strength through a strategy of growing the game and leveraging UEFA support.
+        </p>
+            </div>
+
+
+            <div class="nextEventsInner">
+                <a href="https://www.tomorrowland.com/en/festival/welcome"><img src="./images/tomorrowland.jpeg" alt="CompanyImage"></a>
+                <h2>Tomorrowland 2024!
+                </h2>
+                <p>Fri, Jul 19, 2024 – Sun, Jul 28, 2024</p>
+                <p> LIVE TODAY, LOVE TOMORROW, UNITE FOREVER
+                </p>
+                    </div>
+
+</div>
+</div>
+</div>
+<video src="./videos/brazil.mov" muted autoplay loop></video>
+</div>
+</div>
+<div id="next" onclick="next()"> &gt; </div>
+<div id="prev" onclick="prev()"> &lt; </div>
+</div>
+
+
+
+        <div class="fixedSearch">
+            <div class="lowerSearchDiv">
+            <input id="searchInputMain"  type="text" onkeyup="searchTours()" placeholder="Search">
+            <button onclick="showSearch()" id="searchButtonMain"><img id="search" src="./videos/441039246_1542770132962970_9145887041473301309_n.png" alt="searchBar"></button>
+        </div>
+            <ul id="tours">
+                <li><a href="./abudhabi.html">Abu Dhabi - <i>United Arab Emirates</i> </a></li>
+                <li><a href="./alacati.html">Alacati - <i>Turkey</i></a></li>
+                <li><a href="./amsterdam.html">Amsterdam - <i>Netherlands</i></a></li>
+                <li><a href="./antalya.html">Antalya - <i>Turkey</i></a></li>
+                <li><a href="./bali.html">Bali - <i>Indonesia</i></a></li>
+                <li><a href="./bangkok.html">Bangkok - <i>Thailand</i></a></li>
+                <li><a href="./barcelona.html">Barcelona - <i>Spain</i></a></li>
+                <li><a href="./beijing.html">Beijing - <i>China</i></a></li>
+                <li><a href="./beirut.html">Beirut - <i>Lebanon</i></a></li>
+                <li><a href="./Bergen.html">Bergen - <i>Norway</i></a></li>
+                <li><a href="./Berlin.html">Berlin - <i>Germany</i></a></li>
+                <li><a href="./Bruges.html">Bruges - <i>Belgium</i></a></li>
+                <li><a href="./brussels.html">Brussels - <i>Belgium</i></a></li>
+                <li><a href="./catania.html">Catania - <i>Italy</i></a></li>
+                <li><a href="./chefchaouen.html">Chefchaouen - <i>Moroco</i></a></li>
+                <li><a href="./chiangmai.html">Chiangmai - <i>Thailand</i></a></li>
+                <li><a href="./cologne.html">Cologne - <i>Germany</i></a></li>
+                <li><a href="./copenhagen.html">Copenhagen - <i>Denmark</i></a></li>
+                <li><a href="./crete.html">Crete - <i>Greece</i></a></li>
+                <li><a href="./dehli.html">Dehli - <i>India</i></a></li>
+                <li><a href="./dubai.html">Dubai - <i>United Arab Emirates</i></a></li>
+                <li><a href="./dubrovnik.html">Dubrovnik - <i>Croatia</i></a></li>
+                <li><a href="./florence.html">Florence - <i>Italy</i></a></li>
+                <li><a href="./frankfurt.html">Frankfurt - <i>Germany</i></a></li>
+                <li><a href="./fussen.html">Fussen - <i>Germany</i></a></li>
+                <li><a href="./hamburg.html">Hamburg - <i>Germany</i></a></li>
+                <li><a href="./heidelberg.html">Heidelberg - <i>Germany</i></a></li>
+                <li><a href="./helsinki.html">Helsinki - <i>Finland</i></a></li>
+                <li><a href="./krabi.html">Krabi</a></li>
+                <li><a href="./larnaca.html">Larnaca - <i>Cyprus</i></a></li>
+                <li><a href="./lisbon.html">Lisbon - <i>Portugal</i></a></li>
+                <li><a href="./london.html">London - <i>United Kingdom</i></a></li>
+                <li><a href="./madrid.html">Madrid - <i>Spain</i></a></li>
+                <li><a href="./maldives.html">Maldives - <i>South Asia</i></a></li>
+                <li><a href="./marseille.html">Marseille - <i>France</i></a></li>
+                <li><a href="./melbourne.html">Melbourne - <i>Australia</i></a></li>
+                <li><a href="./milano.html">Milano - <i>Italy</i></a></li>
+                <li><a href="./munich.html">Munich - <i>Germany</i></a></li>
+                <li><a href="./muscat.html">Muscat - <i>Oman</i></a></li>
+                <li><a href="./napoli.html">Napoli - <i>Italy</i></a></li>
+                <li><a href="./osaka.html">Osaka - <i>Japan</i></a></li>
+                <li><a href="./oslo.html">Oslo - <i>Norway</i></a></li>
+                <li><a href="./paris.html">Paris - <i>France</i></a></li>
+                <li><a href="./philippines.html">Philippines - <i>Asia</i></a></li>
+                <li><a href="./prague.html">Prague - <i>Czech Republic</i></a></li>
+                <li><a href="./rhodes.html">Rhodes - <i>Greece</i></a></li>
+                <li><a href="./rome.html">Rome - <i>Italy</i></a></li>
+                <li><a href="./santorini.html">Santorini - <i>Greece</i></a></li>
+                <li><a href="./seoul.html">Seoul - <i>South Korea</i></a></li>
+                <li><a href="./seychelles.html">Seychelles - <i>East Africa</i></a></li>
+                <li><a href="./shanghai.html">Shanghai - <i>China</i></a></li>
+                <li><a href="./sydney.html">Sydney - <i>Australia</i></a></li>
+                <li><a href="./tenerife.html">Tenerife - <i>Spain</i></a></li>
+                <li><a href="./tokio.html">Tokio - <i>Japan</i></a></li>
+                <li><a href="./valencia.html">Valencia - <i>Spain</i></a></li>
+                <li><a href="./vancouver.html">Vancouver - <i>Canada</i></a></li>
+                <li><a href="./venice.html">Venice - <i>Italy</i></a></li>
+                <li><a href="./vienna.html">Vienna - <i>Austria</i></a></li>
+                <li><a href="./vietnam.html">Vietnam - <i>Asia</i></a></li>
+                <li><a href="./zanzibar.html">Zanzibar - <i>Tanzania</i></a></li>
+
+                <li><a href="./main.html">Main Page</a></li>
+                <li><a href="./aboutus.html">About Us Page</a></li>
+                <li><a href="./contactus.html">Contact Us Page</a></li>
+                <li><a href="./information.html">Information Page</a></li>
+                <li><a href="./tours.html">Tours Page</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>© Copyright</p>
+        <div>
+            <img src="./images/facebook.svg" alt="facebook img">
+            <img src="./images/instagram.svg" alt="instagram img">
+        </div>
+    </footer>
+
+        <script src="./scripts/loginForm.js"></script>
+        <script src="./scripts/autoSlider.js"></script>
+        <script src="./scripts/search.js"></script>
+        <script src="./scripts/searchBar.js"></script>
+        <script src="./scripts/learnMore.js"></script>
+        <script src="./scripts/weatherChecker.js"></script>
+        <script  src="./scripts/burgerbar.js"></script>
+    </body>
+</html>

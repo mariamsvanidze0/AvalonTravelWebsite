@@ -1,0 +1,586 @@
+@font-face {
+    font-family: font;
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+}
+:root {
+    --normalFontColor: rgb(255, 255, 255);
+    --hoverTextColor: rgb(7, 0, 0);
+    --activeTextColor: rgb(21, 1, 1);
+    --whiteTextShadow: 2px 2px black;
+}
+body {
+    margin: 0 auto;
+    width: 1700px;
+    background-image: url(/images2/chiangmai1.jpeg);
+    background-size: cover;
+}
+
+
+
+.headermaindiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+    
+}
+.companyname {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.companyname h2 {
+    color: var(--normalFontColor);
+    font-family: font;
+    font-size: 50px;
+    text-shadow: var(--whiteTextShadow);
+}
+.companyname a {
+    text-decoration: none;
+}
+
+.companyname p {
+    color:var(--normalFontColor);
+    font-family: font;
+    margin-left: 10px;
+    padding-top: 20px;
+    text-shadow: var(--whiteTextShadow);
+}
+.firstnav {
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.firstnav a {
+    color: var(--normalFontColor);
+    font-family: font;
+    text-decoration: none;
+    font-size: 23px;
+    text-shadow: var(--whiteTextShadow);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.firstnav a:hover {
+ 
+   color:rgb(251, 251, 251);
+   text-shadow: 4px 4px  black;
+   
+}
+.firstnav a:active {
+
+    color:rgb(251, 251, 251);
+    text-shadow: 4px 4px 4px black;
+    
+}
+.toggle-button {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 30px;
+    height: 20px;
+   
+}
+.toggle-button:hover {
+    width: 35px;
+    height: 25px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px black;
+            box-shadow: 2px 2px black;
+}
+.maindiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.namediv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 650px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+.innerdiscounts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 350px;
+}
+
+#price1 {
+    color:rgb(144, 4, 4);
+    font-family: font;
+    text-decoration: none;
+    font-size: 23px;
+    text-shadow: var(--whiteTextShadow);
+    font-size: 25px;
+    text-decoration: line-through;
+}
+#price2 {
+    color: rgb(1, 84, 1);
+    font-family: font;
+    text-decoration: none;
+    font-size: 23px;
+    text-shadow: var(--whiteTextShadow);
+    font-size: 25px;
+}
+.innerdiscounts1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 410px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.price3 {
+    color:rgb(144, 4, 4);
+    font-family: font;
+    text-decoration: none;
+    font-size: 15px;
+    text-shadow: var(--whiteTextShadow);
+    font-size: 25px;
+    text-decoration: line-through;
+}
+.price4 {
+    color: rgb(1, 84, 1);
+    font-family: font;
+    text-decoration: none;
+    font-size: 15px;
+    text-shadow: var(--whiteTextShadow);
+    font-size: 25px;
+}
+.description {
+    position: relative;
+    left: 100px;
+}
+.line {
+    width: 400px;
+    height: 8px;
+    background-color: white;
+    -webkit-box-shadow: 2px 2px black;
+            box-shadow: 2px 2px black;
+}
+#nameh {
+    font-size: 20px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+#alltours {
+    text-decoration: none;
+    background-color: none;
+    width: 120px;
+    font-family: font;
+     color: rgb(14, 100, 17);
+     text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    margin-left: 50px;
+}
+#alltours:hover {
+    color:rgb(15, 81, 15)
+}
+#alltours:active {
+    text-shadow: 5px 5px 5px black;
+}
+.namediv h4 {
+    font-size: 30px;
+    font-family: font;
+    color: rgb(30, 112, 12);
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+.innerdiv2 h2 {
+    font-family: font;
+    color: rgb(215, 214, 214);
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+}
+.innerdiv2 p {
+    font-family: font;
+    color: rgb(205, 205, 211);
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+    font-weight: 1px;
+}
+.Innerdiv2title {
+    font-size: 20px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+}
+li {
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+}
+.innerdiv2 a {
+    text-decoration: none;
+    background-color: none;
+    width: 120px;
+    font-family: font;
+     color: rgb(219, 18, 18);
+     text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+.innerdiv2 a:hover {
+    color: rgb(129, 8, 8);
+    text-shadow: 2px 2px 2px black;
+}
+.innerdiv2 a:active {
+    color: rgb(129, 8, 8);
+    text-shadow: 5px 5px 5px black;
+
+}
+iframe {
+    border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 1px white;
+          box-shadow: 1px 1px 1px white;
+    border: 2px solid white;
+}
+
+.salesdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 300px;
+}
+.saleanimation {
+    -webkit-animation-name: saleanimation;
+            animation-name: saleanimation;
+    -webkit-animation-duration: 30s;
+            animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    position: relative;
+    width: 300px;
+
+}
+@-webkit-keyframes saleanimation {
+    0% {
+        left: 0;
+        right:0;
+    }
+    50% {
+        left: 1400px;
+        right: 0;
+
+    }
+    100% {
+        left: 0;
+        right: 1400px;
+    }
+}
+@keyframes saleanimation {
+    0% {
+        left: 0;
+        right:0;
+    }
+    50% {
+        left: 1400px;
+        right: 0;
+
+    }
+    100% {
+        left: 0;
+        right: 1400px;
+    }
+}
+.salesdiv p {
+    background-color: red;
+    padding: 5px 10px 10px 5px;
+    border: solid 2px red;
+    border-radius: 5px;
+    width: 50px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+footer  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+    
+}
+footer p {
+    font-family: font;
+    color: var(--normalFontColor);
+    text-shadow: 2px 2px black;
+}
+footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+footer div img {
+width: 20px;
+height: 20px;
+padding: 8px;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+gap: 10px;
+-ms-flex-negative: 0;
+    flex-shrink: 0;
+border-radius: 39px;
+background: #FFF;
+margin-left: 10px;
+cursor: pointer;
+}
+footer p:hover::after {
+    content: " All Rights Reserved"
+}
+
+                
+@media only screen and (max-width: 767px) {
+    .toggle-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .firstnav {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+       max-width: 100%;
+        margin-left: 20px;
+    }
+    .headermaindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .firstnav a {
+        width: 100%;
+     
+    }
+    body {
+     max-width: 100%;
+   
+    background-repeat: no-repeat;
+    height: 1800px;
+    }
+    footer {  
+        max-width: 100%;
+    }
+    @-webkit-keyframes saleanimation {
+        0% {
+            left: 0;
+            right:0;
+        }
+        50% {
+            left: 500px;
+            right: 0;
+    
+        }
+        100% {
+            left: 0;
+            right: 500px;
+        }
+    }
+    @keyframes saleanimation {
+        0% {
+            left: 0;
+            right:0;
+        }
+        50% {
+            left: 500px;
+            right: 0;
+    
+        }
+        100% {
+            left: 0;
+            right: 500px;
+        }
+    }
+.maindiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+header {
+    position: sticky;
+    top: 0; 
+}
+}
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .toggle-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      
+    }
+    .firstnav {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+       max-width: 100%;
+        margin-left: 20px;
+        margin: 0 auto;
+    }
+    .headermaindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .firstnav a {
+        width: 100%;
+    }
+    body {
+     max-width: 100%;
+     background-size: cover;
+     background-position: center ;
+    }
+    footer {  
+        max-width: 100%;
+       
+    }
+    @-webkit-keyframes saleanimation {
+        0% {
+            left: 0;
+            right:0;
+        }
+        50% {
+            left: 700px;
+            right: 0;
+    
+        }
+        100% {
+            left: 0;
+            right: 700px;
+        }
+    }
+    @keyframes saleanimation {
+        0% {
+            left: 0;
+            right:0;
+        }
+        50% {
+            left: 700px;
+            right: 0;
+    
+        }
+        100% {
+            left: 0;
+            right: 700px;
+        }
+    }
+    .maindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    header {
+        position: sticky;
+        top: 0; 
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width:1440px) {
+ body {
+    margin: 0 auto;
+    max-width: 100%;
+    background-size: cover;
+ }
+ main {
+    max-width: 100%;
+ }
+ footer {
+    max-width: 100%;
+ }
+  }
+  @media only screen and (min-width:1441px) and (max-width:2160px) {
+    body {
+        max-width: 100%;
+     }
+     main  {
+        max-width: 100%
+     }
+     footer {
+        max-width: 100%;
+     }
+    }  
